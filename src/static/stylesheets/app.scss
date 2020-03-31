@@ -1,0 +1,18 @@
+@import "~elv-components-js/src/stylesheets/defaults";
+@import "~elv-components-js/src/stylesheets/styles";
+
+html {
+  color: $elv-color-text-dark;
+  font-size: 14px;
+}
+
+body,
+.app,
+.app-container,
+main {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  height: 100%;
+  max-width: 100%;
+}
