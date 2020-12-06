@@ -1,7 +1,7 @@
 import {configure, observable, action, flow} from "mobx";
 
-// import {ElvClient} from "elv-client-js"
-import {FrameClient} from "elv-client-js/src/FrameClient";
+// import {ElvClient} from "@eluvio/elv-client-js"
+import {FrameClient} from "@eluvio/elv-client-js/src/FrameClient";
 
 // Force strict mode so mutations are only allowed within actions.
 configure({
